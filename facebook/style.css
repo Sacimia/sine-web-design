@@ -1,0 +1,232 @@
+h1{
+    color: rgb(36, 124, 212);
+    font-family: sans-serif;
+    font-size: 60px;
+    bottom: 100px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.subtitulo{
+    width: 430px;
+    position: relative;
+    top: 100px;
+    height: auto;
+    left: 150px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dddfe2;
+    line-height: 1.35;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    color: #1c1e21;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+._form{
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    /*right: 400px;*/
+    margin: 1px solid gray;
+    background-color: white;
+    border: darkgrey 2px solid;
+}
+
+.form2{
+    height: 388px;
+    width: 396px;
+}
+
+input:active{
+    border: blue 2px 1px ;
+}
+
+._6{
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+._form{
+    border: 1px black;
+    height: auto;
+    width: auto;
+}
+
+.entrar{
+    /*color: white;*/
+    background-color: rgb(38, 107, 255);
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    font-size: larger;
+    border: none;
+}
+
+.entrar:hover{
+    /*color: white;*/
+    background-color: rgb(1, 79, 246);
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    font-size: larger;
+    border: none;
+}
+
+input{
+    height: 50px;
+    width: 380px;
+    left: 1%;
+    text-shadow: none;
+    letter-spacing: normal;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-indent: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    border-color: initial lightdark(rgb(118, 118, 118), rgb(133, 133, 133));
+    font-size: 15px;
+}
+
+.criar a{
+    color: white;
+    background-color: rgb(118, 170, 14);
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: inherit;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    border-radius: 10px;
+    left: 90px;
+}
+
+.esqueceu{
+    position: relative;
+    bottom: 10px;
+}
+
+.criar a:hover{
+    color: white;
+    background-color: rgb(13, 142, 13);
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: inherit;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    border-radius: 10px;
+    left: 90px;
+}
+
+.linha{
+    border-bottom: 0.8px solid gray;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+
+p a{
+    color: black;
+    text-decoration: none;
+}
+
+button, .criar, .entrar{
+    border-radius: 5px;
+}
+
+.entrar , .criar > a {
+    color: white;
+}
+
+p > a{
+    color: black solid;
+}
+
+.esqueceu{
+    position: relative;
+}
+
+.esqueceu, .criar{
+    left: 30%;
+}
+.entrar{
+    left: 10%;
+}
+._form{
+    position: relative;
+    left: 650px;
+    bottom: 125px;
+    align-items: center;
+    box-shadow: 3px solid #f1f1f1;
+    border-radius: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.entrar a{
+    color: white;
+}
+
+
+.pagina{
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+    position: absolute;
+    font-size: 14px;
+    left: 750px;
+    bottom: 110px;
+    margin-top: 42px;
+    text-align: center;
+
+}
+
+.conta{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+
+.esqueceu:hover, .esqueceu a:hover{
+    text-decoration: underline;
+    color: rgb(48, 48, 255);
+}
+
+.esqueceu .esqueceu a{
+    text-decoration: none;
+    color: rgb(48, 48, 255);
+}
+
+.formulario{
+    position: relative;
+    left: 100px;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

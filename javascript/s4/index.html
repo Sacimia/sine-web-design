@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("Fazendo o input")
+        var input = window.prompt("Digite (input[i])")
+
+    console.log(input)
+    console.log(typeof input)
+        console.log(input[0])
+
+        //var arr = window.prompt("Digite (vem contando)").split(",")
+      //  console.log(arr);
+        for(const i of input){
+           if(i === ","){
+                continue;
+      }else{
+        var aux =[]
+        aux.push(Number(i))
+      console.log(i*i)
+    }
+        }
+       /* console.log("const" + string);
+        const string = window.prompt("Digite string")
+        string.split('').forEach((char) => {
+            console.log(char)
+        });
+        console.log(string);
+       */
+    </script>
+</body>
+</html>

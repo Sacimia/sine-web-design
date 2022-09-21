@@ -1,0 +1,91 @@
+*{
+    background: rgb(24, 24, 24);
+    color: white;
+    font-family: Arial, Helvetica, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+    text-decoration: none;
+}
+
+h2{
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: 200, bold;
+    font-size: 20px;
+}
+
+header{
+    display: block;
+    height: auto;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.header-logo{
+    color: white;
+    border: white 1px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: normal;
+    box-sizing: unset;
+}
+
+.header-logo a {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    align-items: center;
+}
+.wrapper{
+    font-size: 20px;
+}
+
+.paragrafo{
+    position: relative;
+    left: 14px;
+}
+
+.linha{
+    display: block;
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid rgb(232, 227, 227);
+    border-top: 1px solid rgb(232, 227, 227);
+}
+
+li, ul{
+    align-content: space-around;
+    margin-left: 10px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+li a:hover{
+    background: rgb(72, 72, 72);
+    cursor: pointer;
+}
+
+
+@media(min-width: 121px){
+    header{
+        width: auto;
+        height: auto;
+    }
+    .header-logo{
+
+    }
+    h2, .tinindo{
+        position: absolute;
+        left: 50%;
+    }
+}

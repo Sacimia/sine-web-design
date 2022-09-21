@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/Design Web/Vinicius/tarefa"
+		},
+		{
+			"path": "../../Documents/Design Web/Vinicius/tarefa-completo"
+		},
+		{
+			"path": "../../Documents/Design Web/Vinicius/tarefasemana3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+header{
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    background: yellow;
+    display: block;
+}
+
+ul, li, li a{
+    align-content: space-around;
+    margin-left: 10px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+
+
+/*.image1, .image2{
+    width: 100%;
+    height: 900;
+    position: relative;
+    bottom: 100px;
+} 
+*/
+image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+
+    min-height: 1000px;
+}
+
+.form{
+    color: black;
+    min-width: auto;
+    min-height: auto;
+    width: 50vw;
+    border: 2px solid black;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    bottom: 500px;
+    padding: 0;
+    margin: 15px;
+    background: rgb(203, 203, 203);
+
+}
+
+
+input{
+    justify-items: center;
+    position: center;
+    display: flex;
+
+}
+
+button, .entrar{
+    position: absolute;
+    left: 50%;
+    display: block;
+    font-weight: bold;
+    width: 100px;
+    bottom: 20px;
+    background-color: chartreuse;
+}
+
+.entrar2{
+    position: absolute;
+    left: 50%;
+    display: block;
+    font-weight: bold;
+    width: 100px;
+    bottom: 20px;
+    background-color: rgb(191, 0, 255);
+}
+
+
+a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0,0,0.2);
+    text-decoration: underline;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+footer{
+    color: gray;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#form-2{
+    color: black;
+    width: 50vw;
+    border: 2px solid black;
+    height: 300px;
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+    padding: 0;
+    margin: 15px;
+    background: rgb(255, 1, 1);
+}
